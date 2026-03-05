@@ -1,0 +1,176 @@
+---
+title: "W06-Reflection Essay-Introduction to Positron"
+author: "Serena Shi"
+date: '`r format(Sys.time())`'
+format: 
+  html: 
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    code-link: true
+    embed-resources: true
+    theme: cosmo
+editor: visual
+execute: 
+  echo: false
+  freeze: auto
+---
+
+## 
+
+```         
+# Introduction
+
+This reflection summarizes what I learned from **Week 6: Introduction to Positron**.  
+The goal of this workshop was to learn how to install Positron, explore its features, and understand how it improves the data science workflow compared with RStudio.
+
+> Positron represents a new generation of data science development environments that integrate AI and modern tools into one workspace.
+
+---
+
+# Prompt 1  
+## Download and Install Positron
+
+**Prompt:**  
+Download and install Positron and follow the activities in the tutorial videos.
+
+**Response:**  
+
+I installed Positron and explored its interface while following the tutorial videos.  
+The installation process was straightforward and similar to installing other development environments.
+
+Once the software launched, I noticed that the interface felt modern and very similar to **Visual Studio Code**, which made navigation intuitive. The ability to manage projects through folders also helps maintain an organized workflow.
+
+### Steps I followed
+
+1. Downloaded Positron from the official website  
+2. Installed the application on my computer  
+3. Created a project folder called **Intro-Positron**  
+4. Opened the folder as a project inside Positron  
+5. Created a new `.qmd` Quarto file for the reflection
+
+---
+
+# Prompt 2  
+## What do you like about Positron compared with RStudio?
+
+**Prompt:**  
+Based on the videos, what do you like about Positron compared with RStudio?
+
+**Response:**
+
+There are several things I like about Positron compared with RStudio.
+
+### Key Advantages
+
+- **Modern interface** similar to VS Code
+- **Better project management**
+- **Integrated AI assistance**
+- **Improved Quarto support**
+- **Flexible extensions**
+
+Positron feels more flexible and customizable than RStudio. For example, extensions and AI tools can easily be integrated into the development environment. This makes the workflow faster and more efficient.
+
+::: {.callout-note}
+One feature I particularly liked is that Positron integrates coding, documentation, and publishing tools in one environment.
+:::
+
+---
+
+# Prompt 3  
+## Using AI inside Positron
+
+**Prompt:**  
+Describe the various ways you can use AI inside Positron.
+
+**Response:**
+
+Positron supports several AI tools that assist with coding and data analysis.
+
+These tools can help with:
+
+- Writing code
+- Debugging errors
+- Explaining complex functions
+- Generating documentation
+- Suggesting improvements to existing code
+
+| AI Tool | Purpose | Cost |
+|------|------|------|
+| GitHub Copilot | Code suggestions and autocomplete | Free for students |
+| ChatGPT integration | Explain and generate code | Varies |
+| AI chat assistant | Debugging help | Some free |
+
+The integration of AI tools can significantly speed up the development process because repetitive coding tasks can be automated.
+
+---
+
+# Prompt 4  
+## GitHub Copilot Experience
+
+**Prompt:**  
+Apply for GitHub Copilot education access and describe your experience using it.
+
+**Response:**
+
+I applied for the **GitHub Student Developer Pack**, which provides free access to GitHub Copilot for students.
+
+Once approved, I installed the Copilot extension and tested it while writing code. I found that Copilot can automatically suggest code snippets and complete functions as I type.
+
+### Benefits I noticed
+
+- Faster coding
+- Helpful suggestions for unfamiliar functions
+- Reduced debugging time
+
+However, Copilot can sometimes suggest overly complex code, so it is still important to review the suggestions carefully.
+
+::: {.callout-tip}
+AI tools should be treated as **assistants rather than replacements** for learning programming.
+:::
+
+---
+
+# Screenshot Evidence
+
+Below is where I will include the screenshot confirming acceptance into the GitHub Education Program.
+
+![GitHub Education Approval Screenshot](github_education.png)
+
+---
+
+# Publishing to GitHub Pages
+
+To publish this report online, I followed these steps:
+
+1. Created a GitHub repository
+2. Uploaded the Quarto project files
+3. Enabled **GitHub Pages** in the repository settings
+4. Selected the `main` branch as the source
+5. Rendered the Quarto file to HTML
+
+Once GitHub Pages was enabled, the report became available as a website.
+
+Example format:
+```
+
+https://username.github.io/repository-name/
+
+```         
+
+This allows the Quarto HTML report to be shared publicly.
+
+---
+
+# Conclusion
+
+Overall, Positron provides a powerful and modern development environment for data science. The integration of Quarto, AI tools, and flexible extensions makes it more advanced than traditional RStudio workflows. After using Positron for this workshop, I believe it will become a valuable tool for both coding and publishing analytical reports.
+
+Positron combines coding, documentation, and publishing into one unified workflow, which makes it ideal for modern data science projects.
+
+---
+
+# Footnotes
+
+AI-assisted development environments are becoming increasingly common in modern analytics workflows.^[These tools help automate repetitive coding tasks.]
+```
